@@ -1,0 +1,342 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+.header_nav{
+    width: 100%;
+    background: #282828;
+    box-shadow:  0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.header_nav_content{
+    display: flex;
+    justify-content: space-around;
+}
+.header_nav_content_left{
+    display: flex;
+    align-items: center;
+}
+.header_nav_loga{
+    width:100px;
+    height: 53px;
+
+}
+.header_list{
+    list-style: none;
+    display: flex;
+}
+.header_link{
+    text-decoration: none;
+    width: 50px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 500 ;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.header_nav_search_item{
+    display: flex;
+    align-items: center;
+}
+.header_nav_search{
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.header_nav_basket {
+    width: 17px;
+    height: 20px;
+    color: #FFFFFF;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.header_main {
+    height: 92vh;
+    background: url( ../image/Header.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header_main_section {
+    display: flex;
+    height: 92vh;
+}
+
+.header_main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.header_main_content h1 {
+    color: #FFFFFF;
+    font-size: 100px;
+    line-height: 75px;
+    width: 663px;
+    height: 75px;
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header_main_content button {
+    
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #171718;
+    cursor: pointer;
+}
+
+.main {
+    background: rgba(2, 1, 1, 0.905);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.main_content_1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.main_content_1 p {
+    
+    height: 135px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: 33px;
+    margin-right: 15px;
+}
+
+.main_content_1 img {
+   width: 100%;
+    height: 307px;
+    margin-left: 15px;
+}
+
+.main_content_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main_content_2 p {
+    width: 447px;
+    height: 107px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: 45px;
+}
+
+.main_content_2 img {
+    width: 420px;
+    height: 370px;
+    margin-right: 45px;
+}
+
+.main_content_3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.main_content_3_left {
+    width: 296px;
+    height: 120px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.main_content_3 img {
+    width: 250px;
+    height: 350px;
+}
+
+.main_content_3_right {
+    width: 276px;
+    height: 144px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.main_content_last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content_last_box {
+    width: 255px;
+    height: 312px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.main_content_last_box h6 {
+    width: 138px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main_content_last_box img {
+    width: 127.5px;
+    height: 167px;
+    margin-bottom: 10px;
+}
+
+.main_content_last_box p {
+    width: 130px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main_content_last_box button {
+    width: 161px;
+    height: 34px;
+    background: #151515;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_nav_logo {
+    width: 100px;
+    height: 53px; 
+    margin-right: 245px;
+    margin-left: 245px;  
+    cursor: pointer; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer_link {
+    text-decoration: none;
+    width: 50px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.footer_payment_options{
+    margin-right: 245px;
+    margin-left: 100px;    
+
+}
+
+.footer_nav_visa_img {
+    width: 70px;
+    height: 55px;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.footer_nav_mastercard_img {
+    width: 70px;
+    height: 55px;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
